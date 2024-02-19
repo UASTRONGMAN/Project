@@ -1,0 +1,21 @@
+@media screen and (min-width: 300px) and (max-width: 500px){
+    header{
+        height: 20vh;
+    }
+    header>div{
+        width: 87.2vh;
+        /*height: 100%;*/
+    }
+    header>div>img{
+        width: 35px;
+        position: relative;
+        bottom: -6px;
+        margin: 0 5px 0 0;
+    }
+    nav{
+        display: none;
+    }
+    .button_contact_us{
+        display: none;
+    }
+}

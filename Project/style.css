@@ -21,17 +21,23 @@ header{
     height: 10vh;
     width: 100%;
     display: flex;
+    justify-content: center;
+}
+.panel{
+    width: 80vw;
+    height: 10vh;
+    display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
-header>div>img{
+.panel>div>img{
     width: 35px;
     position: relative;
     bottom: -6px;
     margin: 0 5px 0 0;
 }
-header>div{
+.panel>div{
     font-size: 28px;
     font-weight: 700;
 }
@@ -242,7 +248,7 @@ a:hover{
     width: 100%;
     height: 57.25vh;
     display: flex;
-    flex: row;
+    flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
 }
