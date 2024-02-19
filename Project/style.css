@@ -1,0 +1,313 @@
+body{
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    background: #19191B;
+    color: white;
+}
+/*-----------------------Page 1-----------------------*/
+.page_1{
+    width: 100%;
+    height: 90vh;
+    background: radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 0.00) 100%);
+}
+.logo{
+    transition: 0.5s;
+}
+.logo:hover{
+    rotate: 360deg;
+    transition: 1s;
+}
+header{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+header>div>img{
+    width: 35px;
+    position: relative;
+    bottom: -6px;
+    margin: 0 5px 0 0;
+}
+header>div{
+    font-size: 28px;
+    font-weight: 700;
+}
+nav{
+    font-size: 18px;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: darkgrey;
+    transition: 0.2s;
+}
+a:hover{
+    color: mediumpurple;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.button_contact_us{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    backdrop-filter: blur(1px);
+    background: transparent;
+    color: white;
+    width: 150px;
+    height: 40px;
+}
+.button_contact_us:hover{
+    border: 1px solid #ee1919;
+    font-size: 18px;
+}
+.page_1>main {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+}
+.main_info{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.main_info>div{
+    width: 52%;
+}
+.main_info>img{
+    width: 45%;
+}
+.main_info>div>h1{
+    font-size: 80px;
+    line-height: 84px;
+    margin: 20px 0 30px 0;
+}
+.main_info>div>p{
+    font-size: 21px;
+    margin: 0 0 40px 0;
+    line-height: 39px;
+    letter-spacing: -0.657px;
+}
+.services{
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    border-radius: 4px;
+    background: #5454D4;
+    font-weight: 700;
+    color: white;
+    width: 204px;
+    height: 58px;
+    border: 0;
+    padding: 0;
+}
+/*----------------------Big photo----------------------*/
+.big_photo{
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 0.00) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.big_photo>div{
+    width: 80vw;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 20vh;
+    margin: 5vh 0;
+}
+.text>h2{
+    font-size: 60px;
+    line-height: 70px;
+    width: 49%;
+    margin: 0;
+}
+.text>p{
+    font-size: 21px;
+    line-height: 39px;
+    letter-spacing: -0.657px;
+    width: 49%;
+    margin: 0;
+}
+
+.big_photo>div>img{
+    width: 80vw;
+    height: 70vh;
+}
+/*----------------------Provide services----------------------*/
+.provide_services{
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 0.00) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.provide_services>h2{
+    width: 45vw;
+    font-size: 60px;
+    line-height: 70px;
+    margin: 14vh 0 9.5vh 0;
+    text-align: center;
+}
+.wrap{
+    width: 80vw;
+    height: 73.875vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+.wrap>div{
+    height: 25vh;
+    width: 20.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.wrap>div>h4{
+    font-size: 28px;
+    letter-spacing: -0.75px;
+    margin: 3.8vh 0 2.3vh 0;
+    font-weight: 700;
+}
+.wrap>div>p{
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+}
+.blue_oval{
+    position: absolute;
+}
+.blue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red_oval{
+    position: absolute;
+}
+.red{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yellow_oval{
+    position: absolute;
+}
+.yellow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*----------------------Portfolio----------------------*/
+.portfolio{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio>div{
+    width: 80vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+}
+.portfolio h2{
+    width: 45vw;
+    font-size: 58px;
+    margin: 14vh 0 16.95vh 0;
+    font-weight: 700;
+}
+.cover{
+    width: 100%;
+    height: 57.25vh;
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.frame_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 26vw;
+}
+.portfolio_img{
+    width: 23vw;
+    border-radius: 12px;
+}
+.frame{
+    position: absolute;
+    width: 25.5vw;
+    z-index: -1;
+}
+/*----------------------Contact us----------------------*/
+.contact_us{
+    width: 100%;
+    height: 62.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_us>div{
+    width: 80vw;
+    height: 49vh;
+    display: flex;
+    flex-direction: column;
+}
+.contact_us>div>div{
+    width: 80vw;
+    height: 49vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact_us div div h2{
+    font-size: 60px;
+    width: 55vw;
+}
+footer{
+    width: 80vw;
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+footer div{
+    font-size: 28px;
+    line-height: 140%;
+    font-weight: 700;
+}
+footer>div>img{
+    width: 40px;
+    position: relative;
+    bottom: -7.5px;
+    margin: 0 5px 0 0;
+}
+footer>div>p{
+    font-size: 16px;
+    line-height: 38px;
+    letter-spacing: -0.5px;
+}
